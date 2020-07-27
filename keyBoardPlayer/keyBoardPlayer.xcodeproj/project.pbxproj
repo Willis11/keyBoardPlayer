@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAA759724CC99D300A82AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA759624CC99D300A82AF0 /* AppDelegate.swift */; };
+		1AAA759924CC99D300A82AF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA759824CC99D300A82AF0 /* ContentView.swift */; };
+		1AAA759B24CC99D600A82AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA759A24CC99D600A82AF0 /* Assets.xcassets */; };
+		1AAA759E24CC99D600A82AF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA759D24CC99D600A82AF0 /* Preview Assets.xcassets */; };
+		1AAA75A124CC99D600A82AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA759F24CC99D600A82AF0 /* Main.storyboard */; };
+		1AAA75C824CD988E00A82AF0 /* allen_arrogh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75C724CD988E00A82AF0 /* allen_arrogh.wav */; };
+		1AAA75CC24CD9C2900A82AF0 /* no_sh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75CB24CD9C2900A82AF0 /* no_sh.wav */; };
+		1AAA75D424CD9E2600A82AF0 /* how_ya_doin_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75D224CD9E2600A82AF0 /* how_ya_doin_x.wav */; };
+		1AAA75D724CD9E3400A82AF0 /* mother_talk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75D524CD9E3400A82AF0 /* mother_talk.wav */; };
+		1AAA75D824CD9E3400A82AF0 /* mother_get.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75D624CD9E3400A82AF0 /* mother_get.wav */; };
+		1AAA75DB24CD9E4200A82AF0 /* shrek_tic_tacs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75D924CD9E4200A82AF0 /* shrek_tic_tacs.wav */; };
+		1AAA75F924CF372100A82AF0 /* bugs_adios.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75DD24CF372000A82AF0 /* bugs_adios.wav */; };
+		1AAA75FA24CF372100A82AF0 /* bugs_ask.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75DE24CF372000A82AF0 /* bugs_ask.wav */; };
+		1AAA75FB24CF372100A82AF0 /* att.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75DF24CF372000A82AF0 /* att.wav */; };
+		1AAA75FC24CF372100A82AF0 /* intel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E024CF372000A82AF0 /* intel.wav */; };
+		1AAA75FE24CF372100A82AF0 /* bat-time_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E224CF372000A82AF0 /* bat-time_x.wav */; };
+		1AAA75FF24CF372100A82AF0 /* riddler_laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E324CF372000A82AF0 /* riddler_laugh.wav */; };
+		1AAA760024CF372100A82AF0 /* be_cool.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E424CF372000A82AF0 /* be_cool.wav */; };
+		1AAA760124CF372100A82AF0 /* bud_how_ya_doin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E524CF372000A82AF0 /* bud_how_ya_doin.wav */; };
+		1AAA760224CF372100A82AF0 /* erased.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E624CF372000A82AF0 /* erased.wav */; };
+		1AAA760324CF372100A82AF0 /* hawaiian_punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E724CF372000A82AF0 /* hawaiian_punch.wav */; };
+		1AAA760424CF372100A82AF0 /* why_not.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E824CF372000A82AF0 /* why_not.wav */; };
+		1AAA760524CF372100A82AF0 /* tomorrow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75E924CF372000A82AF0 /* tomorrow.wav */; };
+		1AAA760724CF372100A82AF0 /* got_s1e1_wake_dragon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75EB24CF372000A82AF0 /* got_s1e1_wake_dragon.wav */; };
+		1AAA760824CF372100A82AF0 /* bugs_here_i_come.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75EC24CF372000A82AF0 /* bugs_here_i_come.wav */; };
+		1AAA760924CF372100A82AF0 /* green_giant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75ED24CF372000A82AF0 /* green_giant.wav */; };
+		1AAA760A24CF372100A82AF0 /* fedex2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75EE24CF372000A82AF0 /* fedex2.wav */; };
+		1AAA760B24CF372100A82AF0 /* deep_trouble.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75EF24CF372000A82AF0 /* deep_trouble.wav */; };
+		1AAA760C24CF372100A82AF0 /* apple_1984_prevail.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F024CF372000A82AF0 /* apple_1984_prevail.wav */; };
+		1AAA760D24CF372100A82AF0 /* meet_the_joker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F124CF372000A82AF0 /* meet_the_joker.wav */; };
+		1AAA760F24CF372100A82AF0 /* love_this_place.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F324CF372100A82AF0 /* love_this_place.wav */; };
+		1AAA761024CF372100A82AF0 /* great.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F424CF372100A82AF0 /* great.wav */; };
+		1AAA761224CF372100A82AF0 /* hello_cutie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F624CF372100A82AF0 /* hello_cutie.wav */; };
+		1AAA761324CF372100A82AF0 /* mean_one.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F724CF372100A82AF0 /* mean_one.wav */; };
+		1AAA761424CF372100A82AF0 /* image.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA75F824CF372100A82AF0 /* image.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AAA759324CC99D300A82AF0 /* keyBoardPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyBoardPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAA759624CC99D300A82AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AAA759824CC99D300A82AF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AAA759A24CC99D600A82AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AAA759D24CC99D600A82AF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AAA75A024CC99D600A82AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AAA75A224CC99D600A82AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAA75A324CC99D600A82AF0 /* keyBoardPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = keyBoardPlayer.entitlements; sourceTree = "<group>"; };
+		1AAA75C724CD988E00A82AF0 /* allen_arrogh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = allen_arrogh.wav; sourceTree = "<group>"; };
+		1AAA75CB24CD9C2900A82AF0 /* no_sh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_sh.wav; sourceTree = "<group>"; };
+		1AAA75D224CD9E2600A82AF0 /* how_ya_doin_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = how_ya_doin_x.wav; sourceTree = "<group>"; };
+		1AAA75D524CD9E3400A82AF0 /* mother_talk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mother_talk.wav; sourceTree = "<group>"; };
+		1AAA75D624CD9E3400A82AF0 /* mother_get.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mother_get.wav; sourceTree = "<group>"; };
+		1AAA75D924CD9E4200A82AF0 /* shrek_tic_tacs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shrek_tic_tacs.wav; sourceTree = "<group>"; };
+		1AAA75DD24CF372000A82AF0 /* bugs_adios.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bugs_adios.wav; sourceTree = "<group>"; };
+		1AAA75DE24CF372000A82AF0 /* bugs_ask.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bugs_ask.wav; sourceTree = "<group>"; };
+		1AAA75DF24CF372000A82AF0 /* att.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = att.wav; sourceTree = "<group>"; };
+		1AAA75E024CF372000A82AF0 /* intel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intel.wav; sourceTree = "<group>"; };
+		1AAA75E224CF372000A82AF0 /* bat-time_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bat-time_x.wav"; sourceTree = "<group>"; };
+		1AAA75E324CF372000A82AF0 /* riddler_laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = riddler_laugh.wav; sourceTree = "<group>"; };
+		1AAA75E424CF372000A82AF0 /* be_cool.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = be_cool.wav; path = ../Downloads/be_cool.wav; sourceTree = "<group>"; };
+		1AAA75E524CF372000A82AF0 /* bud_how_ya_doin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bud_how_ya_doin.wav; sourceTree = "<group>"; };
+		1AAA75E624CF372000A82AF0 /* erased.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = erased.wav; path = ../Downloads/erased.wav; sourceTree = "<group>"; };
+		1AAA75E724CF372000A82AF0 /* hawaiian_punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hawaiian_punch.wav; sourceTree = "<group>"; };
+		1AAA75E824CF372000A82AF0 /* why_not.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = why_not.wav; path = ../Downloads/why_not.wav; sourceTree = "<group>"; };
+		1AAA75E924CF372000A82AF0 /* tomorrow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tomorrow.wav; sourceTree = "<group>"; };
+		1AAA75EB24CF372000A82AF0 /* got_s1e1_wake_dragon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = got_s1e1_wake_dragon.wav; sourceTree = "<group>"; };
+		1AAA75EC24CF372000A82AF0 /* bugs_here_i_come.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bugs_here_i_come.wav; sourceTree = "<group>"; };
+		1AAA75ED24CF372000A82AF0 /* green_giant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = green_giant.wav; sourceTree = "<group>"; };
+		1AAA75EE24CF372000A82AF0 /* fedex2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fedex2.wav; sourceTree = "<group>"; };
+		1AAA75EF24CF372000A82AF0 /* deep_trouble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = deep_trouble.wav; path = ../Downloads/deep_trouble.wav; sourceTree = "<group>"; };
+		1AAA75F024CF372000A82AF0 /* apple_1984_prevail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = apple_1984_prevail.wav; sourceTree = "<group>"; };
+		1AAA75F124CF372000A82AF0 /* meet_the_joker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meet_the_joker.wav; sourceTree = "<group>"; };
+		1AAA75F324CF372100A82AF0 /* love_this_place.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = love_this_place.wav; sourceTree = "<group>"; };
+		1AAA75F424CF372100A82AF0 /* great.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = great.wav; sourceTree = "<group>"; };
+		1AAA75F624CF372100A82AF0 /* hello_cutie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hello_cutie.wav; path = ../Downloads/hello_cutie.wav; sourceTree = "<group>"; };
+		1AAA75F724CF372100A82AF0 /* mean_one.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mean_one.wav; sourceTree = "<group>"; };
+		1AAA75F824CF372100A82AF0 /* image.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = image.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAA759024CC99D300A82AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAA758A24CC99D300A82AF0 = {
+			isa = PBXGroup;
+			children = (
+				1AAA759524CC99D300A82AF0 /* keyBoardPlayer */,
+				1AAA759424CC99D300A82AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AAA759424CC99D300A82AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA759324CC99D300A82AF0 /* keyBoardPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AAA759524CC99D300A82AF0 /* keyBoardPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA75C624CD988E00A82AF0 /* soundBites */,
+				1AAA759624CC99D300A82AF0 /* AppDelegate.swift */,
+				1AAA759824CC99D300A82AF0 /* ContentView.swift */,
+				1AAA759A24CC99D600A82AF0 /* Assets.xcassets */,
+				1AAA759F24CC99D600A82AF0 /* Main.storyboard */,
+				1AAA75A224CC99D600A82AF0 /* Info.plist */,
+				1AAA75A324CC99D600A82AF0 /* keyBoardPlayer.entitlements */,
+				1AAA759C24CC99D600A82AF0 /* Preview Content */,
+			);
+			path = keyBoardPlayer;
+			sourceTree = "<group>";
+		};
+		1AAA759C24CC99D600A82AF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA759D24CC99D600A82AF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AAA75C624CD988E00A82AF0 /* soundBites */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA75F024CF372000A82AF0 /* apple_1984_prevail.wav */,
+				1AAA75DF24CF372000A82AF0 /* att.wav */,
+				1AAA75E224CF372000A82AF0 /* bat-time_x.wav */,
+				1AAA75E424CF372000A82AF0 /* be_cool.wav */,
+				1AAA75E524CF372000A82AF0 /* bud_how_ya_doin.wav */,
+				1AAA75DD24CF372000A82AF0 /* bugs_adios.wav */,
+				1AAA75DE24CF372000A82AF0 /* bugs_ask.wav */,
+				1AAA75EC24CF372000A82AF0 /* bugs_here_i_come.wav */,
+				1AAA75EF24CF372000A82AF0 /* deep_trouble.wav */,
+				1AAA75E624CF372000A82AF0 /* erased.wav */,
+				1AAA75EE24CF372000A82AF0 /* fedex2.wav */,
+				1AAA75EB24CF372000A82AF0 /* got_s1e1_wake_dragon.wav */,
+				1AAA75F424CF372100A82AF0 /* great.wav */,
+				1AAA75ED24CF372000A82AF0 /* green_giant.wav */,
+				1AAA75E724CF372000A82AF0 /* hawaiian_punch.wav */,
+				1AAA75F624CF372100A82AF0 /* hello_cutie.wav */,
+				1AAA75F824CF372100A82AF0 /* image.wav */,
+				1AAA75E024CF372000A82AF0 /* intel.wav */,
+				1AAA75F324CF372100A82AF0 /* love_this_place.wav */,
+				1AAA75F724CF372100A82AF0 /* mean_one.wav */,
+				1AAA75F124CF372000A82AF0 /* meet_the_joker.wav */,
+				1AAA75E324CF372000A82AF0 /* riddler_laugh.wav */,
+				1AAA75E924CF372000A82AF0 /* tomorrow.wav */,
+				1AAA75E824CF372000A82AF0 /* why_not.wav */,
+				1AAA75D924CD9E4200A82AF0 /* shrek_tic_tacs.wav */,
+				1AAA75D624CD9E3400A82AF0 /* mother_get.wav */,
+				1AAA75D524CD9E3400A82AF0 /* mother_talk.wav */,
+				1AAA75D224CD9E2600A82AF0 /* how_ya_doin_x.wav */,
+				1AAA75CB24CD9C2900A82AF0 /* no_sh.wav */,
+				1AAA75C724CD988E00A82AF0 /* allen_arrogh.wav */,
+			);
+			name = soundBites;
+			path = ../../soundBites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AAA759224CC99D300A82AF0 /* keyBoardPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAA75A624CC99D600A82AF0 /* Build configuration list for PBXNativeTarget "keyBoardPlayer" */;
+			buildPhases = (
+				1AAA758F24CC99D300A82AF0 /* Sources */,
+				1AAA759024CC99D300A82AF0 /* Frameworks */,
+				1AAA759124CC99D300A82AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyBoardPlayer;
+			productName = keyBoardPlayer;
+			productReference = 1AAA759324CC99D300A82AF0 /* keyBoardPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AAA758B24CC99D300A82AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jude Willis";
+				TargetAttributes = {
+					1AAA759224CC99D300A82AF0 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1AAA758E24CC99D300A82AF0 /* Build configuration list for PBXProject "keyBoardPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AAA758A24CC99D300A82AF0;
+			productRefGroup = 1AAA759424CC99D300A82AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AAA759224CC99D300A82AF0 /* keyBoardPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AAA759124CC99D300A82AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAA761024CF372100A82AF0 /* great.wav in Resources */,
+				1AAA761424CF372100A82AF0 /* image.wav in Resources */,
+				1AAA75D724CD9E3400A82AF0 /* mother_talk.wav in Resources */,
+				1AAA75CC24CD9C2900A82AF0 /* no_sh.wav in Resources */,
+				1AAA75A124CC99D600A82AF0 /* Main.storyboard in Resources */,
+				1AAA760A24CF372100A82AF0 /* fedex2.wav in Resources */,
+				1AAA760C24CF372100A82AF0 /* apple_1984_prevail.wav in Resources */,
+				1AAA760124CF372100A82AF0 /* bud_how_ya_doin.wav in Resources */,
+				1AAA760024CF372100A82AF0 /* be_cool.wav in Resources */,
+				1AAA75FB24CF372100A82AF0 /* att.wav in Resources */,
+				1AAA75D824CD9E3400A82AF0 /* mother_get.wav in Resources */,
+				1AAA760424CF372100A82AF0 /* why_not.wav in Resources */,
+				1AAA760B24CF372100A82AF0 /* deep_trouble.wav in Resources */,
+				1AAA761224CF372100A82AF0 /* hello_cutie.wav in Resources */,
+				1AAA760524CF372100A82AF0 /* tomorrow.wav in Resources */,
+				1AAA760224CF372100A82AF0 /* erased.wav in Resources */,
+				1AAA760824CF372100A82AF0 /* bugs_here_i_come.wav in Resources */,
+				1AAA75FA24CF372100A82AF0 /* bugs_ask.wav in Resources */,
+				1AAA75DB24CD9E4200A82AF0 /* shrek_tic_tacs.wav in Resources */,
+				1AAA75FE24CF372100A82AF0 /* bat-time_x.wav in Resources */,
+				1AAA75D424CD9E2600A82AF0 /* how_ya_doin_x.wav in Resources */,
+				1AAA759E24CC99D600A82AF0 /* Preview Assets.xcassets in Resources */,
+				1AAA75FF24CF372100A82AF0 /* riddler_laugh.wav in Resources */,
+				1AAA75C824CD988E00A82AF0 /* allen_arrogh.wav in Resources */,
+				1AAA760924CF372100A82AF0 /* green_giant.wav in Resources */,
+				1AAA75F924CF372100A82AF0 /* bugs_adios.wav in Resources */,
+				1AAA759B24CC99D600A82AF0 /* Assets.xcassets in Resources */,
+				1AAA761324CF372100A82AF0 /* mean_one.wav in Resources */,
+				1AAA760724CF372100A82AF0 /* got_s1e1_wake_dragon.wav in Resources */,
+				1AAA760D24CF372100A82AF0 /* meet_the_joker.wav in Resources */,
+				1AAA75FC24CF372100A82AF0 /* intel.wav in Resources */,
+				1AAA760F24CF372100A82AF0 /* love_this_place.wav in Resources */,
+				1AAA760324CF372100A82AF0 /* hawaiian_punch.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAA758F24CC99D300A82AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAA759924CC99D300A82AF0 /* ContentView.swift in Sources */,
+				1AAA759724CC99D300A82AF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AAA759F24CC99D600A82AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAA75A024CC99D600A82AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AAA75A424CC99D600A82AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AAA75A524CC99D600A82AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1AAA75A724CC99D600A82AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = keyBoardPlayer/keyBoardPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"keyBoardPlayer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = keyBoardPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.keyBoardPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1AAA75A824CC99D600A82AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = keyBoardPlayer/keyBoardPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"keyBoardPlayer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = keyBoardPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.keyBoardPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAA758E24CC99D300A82AF0 /* Build configuration list for PBXProject "keyBoardPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAA75A424CC99D600A82AF0 /* Debug */,
+				1AAA75A524CC99D600A82AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAA75A624CC99D600A82AF0 /* Build configuration list for PBXNativeTarget "keyBoardPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAA75A724CC99D600A82AF0 /* Debug */,
+				1AAA75A824CC99D600A82AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AAA758B24CC99D300A82AF0 /* Project object */;
+}
